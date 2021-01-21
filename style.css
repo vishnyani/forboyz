@@ -1,0 +1,336 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    flex: column; 
+    width: 100%;
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+
+nav  {
+    font-family: 'Bellota Text', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: baseline;
+    flex: column; 
+    margin: auto;
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 0;
+    width: 100%;
+    font-size: 20px;
+}
+nav a {
+    color: #575151;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+
+nav a:hover{
+    color: darkgray;
+}
+
+.sign{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 900;
+    text-shadow: 0 0 1.5px #575151;
+    font-size: 36px;
+    line-height: 50px;
+    
+/* or 139% */
+
+
+    color: #575151;    
+}
+
+h3{
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #575151;
+}
+
+button{
+    background-color: #F6B900;
+    padding: 20px 82px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Bellota Text', cursive;
+    font-size: 20px;
+    color: #575151;
+    cursor: pointer;
+    
+}
+
+button a{
+    font-family: 'Bellota Text', cursive;
+    font-size: 20px;
+    color: #575151;
+    text-decoration: none;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    margin: 5% 7% 3%;
+}
+
+
+body{
+    background: #E0E6E6;
+}
+
+.left{
+    width: 431px;
+}
+
+.left h3{
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+h2{
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+
+    color: #575151;
+}
+
+.picture{
+    text-align: center;
+    background-color: #F9F9F9;
+    padding: 10px 40px 5px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.picture:hover{
+    background-color: #F9D25D;
+}
+
+p{
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 10px;
+    padding: 0;
+    margin: 0;
+    
+/* identical to box height */
+
+    text-align: center;
+
+    color: #575151;
+
+}
+
+.column{
+    display: flex;
+    justify-content: space-between;
+}
+
+.constructor{
+    margin: 0px 135px;
+    margin-top: 40px;
+}
+
+.constructor1{
+    margin-top: 80px;
+    margin-left: 135px;
+}
+
+.next{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 135px;
+    margin-top: 50px;
+}
+
+.next button{
+    width: 315px;
+    padding: 15px 82px;
+}
+
+.footer{
+    margin-top: 33px;
+    width: 1440px;
+    height: 426px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #575151;
+}
+
+.footer_icons img{
+    margin: 47px 18px;
+}
+
+
+.footer_about{
+    display: flex;
+    margin-top: 30px;
+}
+
+.adress{
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 45px;
+
+    color: #FBFCFB;
+    width: 314px;
+    height: 180px;
+}
+
+.main_objects{
+    display: flex;
+    flex-direction: column;
+
+color: #FDFDFD;
+width: 207px;
+height: 180px
+}
+
+.main_objects a{
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 31px;
+    text-decoration: none;
+    color: #FDFDFD;
+    line-height: 45px;
+
+}
+
+.mg{
+    margin-right: 104px;
+    margin-left: 188px;
+}
+
+button:hover{
+    background-color: #F9D25D;
+}
+
+.choice{
+     margin-left: 135px;
+}
+.rectangle {
+    margin-left: 135px;
+    display:flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid #575151;
+    width: max-content;
+}
+.rectangle a {
+    margin: 5px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #575151;
+    text-shadow: 0 0 1.5px #575151;
+    width: 30px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.rectangle a:hover{
+     background-color: #F9D25D;
+}
+
+.tiers {
+    display: flex;
+    margin-left: 135px;
+}
+
+.tiers picture{
+    margin-top: 218px;
+}
+
+.cakes_small{
+    background-color: #C79666;
+    padding: 10px 224px 131px 150px;
+    border-radius: 15px;
+    margin-right: 135px;
+    margin-left: 336px;
+}
+
+.cakes_medium{
+    background-color: #C79666;
+    padding: 10px 224px 131px 150px;
+    border-radius: 15px;
+    margin-right: 135px;
+    margin-left: 336px;
+}
+
+.billet{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 135px;
+    margin-top: 40px;
+    margin-right: 61px;
+}
+
+.photo{
+    text-align: center;
+    background-color: #F9F9F9;
+    padding: 30px 10px 30px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.text p{
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 225px;
+}
+
+.together{
+    display: inline;
+    margin-right: 60px;
+}
+
+.photo:hover{
+     background-color: #F9D25D;
+}
